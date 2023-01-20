@@ -1,27 +1,30 @@
 {
-    "name": "mia-khalifa",
-    "version": "1.0.5",
-    "description": "Add Mia Khalifa into your images",
-    "main": "index.js",
-    "scripts": {
-        "test": "node test.js",
-        "cli": "mia-khalifa"
-    },
-    "keywords": [
-        "Mia Khalifa",
-        "image",
-        "import"
-    ],
-    "author": "ebolax",
-    "license": "ISC",
-    "dependencies": {
-        "jimp": "^0.16.1"
-    },
-    "homepage": "https://github.com/ebolax/mia-khalifa",
-    "bugs": {
-        "url": "https://github.com/ebolax/mia-khalifa/issues"
-    },
-    "bin": {
-        "mia-khalifa": "cli.js"
-    }
+  "name": "manoel",
+  "version": "1.0.5",
+  "description": "Adicionar Manoel Gomes em suas imagens",
+  "main": "./src/index.ts",
+  "type": "commonjs",
+  "scripts": {
+    "test": "tsx ./src/test/test.ts",
+    "cli": "manoel-gomes"
+  },
+  "keywords": [
+    "Manoel Gomes",
+    "image",
+    "import"
+  ],
+  "author": "higordevv",
+  "license": "ISC",
+  "dependencies": {
+    "jimp": "^0.16.1",
+    "tsx": "^3.12.2"
+  },
+  "homepage": "https://github.com/higordevv/manoel-gomes",
+  "bin": {
+    "manoel-gomes": "./src/cli.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
+  }
 }

@@ -1,33 +1,19 @@
-# Mia Khalifa Importer
+# Manoel Gomes Importer
 
-This repo contains a Nodejs module to import Mia Khalifa to your images
+This repo contains a Nodejs module to import Manoel Gomes to your images
 
 ## Installation
 
-npm install mia-khalifa --save
+npm install manoel-gomes --save
 
 ## Usage
 
-MiaKhalifa.addToImage (original_image, export_image);
+addManoelGomesToImage (original_image, export_image);
 
 ```
-const MiaKhalifa = require('mia-khalifa');
+import addManoelGomesToImage from "manoel-gomes"
 
-MiaKhalifa.addToImage('test/test1.jpg', 'test/test1_new.jpg');
+addManoelGomesToImage('example/test.png', 'example/test_new.png');
 ```
 
-<img src="https://github.com/ebolax/mia-khalifa/raw/master/test/test1.jpg" alt="test1" width="200"/> -> <img src="https://github.com/ebolax/mia-khalifa/raw/master/test/test1_new.jpg" alt="test1" width="200"/>
-
-<img src="https://github.com/ebolax/mia-khalifa/raw/master/test/test2.png" alt="test1" width="200"/> -> <img src="https://github.com/ebolax/mia-khalifa/raw/master/test/test2_new.png" alt="test1" width="200"/>
-
-<img src="https://github.com/ebolax/mia-khalifa/raw/master/test/test3.jpg" alt="test1" width="200"/> -> <img src="https://github.com/ebolax/mia-khalifa/raw/master/test/test3_new.jpg" alt="test1" width="200"/>
-
-## Use CLI
-
-npm install mia-khalifa -g
-
-```
-mia-khalifa input_file output_file
-
-mia-khalifa test.jpg test_new.jpg
-```
+<img src="./example/test.png" alt="test1" width="200"/> -> <img src="./example/test_new.png" alt="test1" width="200"/>
