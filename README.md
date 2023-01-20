@@ -4,7 +4,7 @@ This repo contains a Nodejs module to import Manoel Gomes to your images
 
 ## Installation
 
-npm install manoel-gomes --save
+npm install manoel-gomes --save (Ainda não postei no npm)
 
 ## Usage
 
