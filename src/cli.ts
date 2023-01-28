@@ -1,3 +1,3 @@
-import { addManoelGomesToImage } from "./index";
+import { Caneta } from "./index";
 
-addManoelGomesToImage(process.argv[2], process.argv[3]);
+new Caneta(process.argv[2]).addManoelGomes();

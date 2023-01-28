@@ -1,3 +1,3 @@
-import { addManoelGomesToImage } from "../src/index";
+import { Caneta } from "../src/index";
 
-addManoelGomesToImage("test.png", "test_new.png");
+new Caneta("test.png", { exportImg: "./test_new.png" });
