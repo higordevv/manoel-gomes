@@ -1,6 +1,6 @@
 {
-  "name": "manoel",
-  "version": "1.0.5",
+  "name": "manoel-gomes",
+  "version": "1.0.7",
   "description": "Adicionar Manoel Gomes em suas imagens",
   "main": "./src/index.ts",
   "type": "commonjs",
