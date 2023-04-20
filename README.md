@@ -1,6 +1,11 @@
 # Manoel Gomes Library
 Adicione a imagem do Manoel Gomes a qualquer imagem de entrada usando o Node.js.
 
+
+<div align="center">
+<img src="https://github.com/higordevv/manoel-gomes/blob/master/src/__tests__/test_images/input.png?raw=true" alt="test1" width="200"/> -> <img src="https://github.com/higordevv/manoel-gomes/blob/master/src/__tests__/test_images/expected_output.png?raw=true" alt="test1" width="200"/>
+</div>
+
 ## Instalação
 ```bash
 npm install manoel-gomes 
